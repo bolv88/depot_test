@@ -18,8 +18,10 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'execjs'
 end
 
+gem 'therubyracer'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
